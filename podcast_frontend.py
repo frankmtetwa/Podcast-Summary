@@ -64,7 +64,7 @@ def main():
             #st.write(podcast_info["podcast_guest"]['summary'])
 
         # Display the five key moments
-        st.subheader("Key takeawys")
+        st.subheader("Key takeaways")
         key_moments = podcast_info['podcast_highlights']
         for moment in key_moments.split('\n'):
             st.markdown(
